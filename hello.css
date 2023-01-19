@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.parent div {
+  padding: 20px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+/* MOBILE  */
+@media (max-width: 767px) {
+}
+
+/* SMALL SCREEN  */
+@media (min-width: 768px) {
+  .parent div {
+    width: calc(50% - 10px);
+  }
+}
+
+/* MEDIUM SCREEN  */
+@media (min-width: 992px) {
+  .parent div {
+    width: calc(25% - 5px);
+  }
+}
+
+/* LARGE SCREEN  */
+@media (min-width: 1200px) {
+}
