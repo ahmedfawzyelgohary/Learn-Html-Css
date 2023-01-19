@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 825px;
+  margin: 50px auto;
+  border: solid 5px black;
+  position: relative;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  color: #444;
+  font-weight: bold;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 15px;
+  background-color: #f7f7f7;
+}
+.price {
+  font-weight: bold;
+}
+.free {
+  color: rgba(68, 68, 68, 0.534);
+  margin-bottom: 15px;
+}
+.Ready {
+  margin-bottom: 15px;
+}
+li {
+  list-style: square;
+}
+button {
+  color: #fff;
+  background-color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  color: black;
+  background-color: #fff;
+  border: none;
+}
+a:link {
+  color: black;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:active {
+  color: black;
+}
+.first-img {
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin: 20px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+ul {
+  margin-left: 20px;
+}
+li {
+  margin-bottom: 10px;
+}
+.sale {
+  background-color: red;
+  color: #fff;
+  font-size: 15px;
+  padding: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  position: absolute;
+  top: -25px;
+  left: -30px;
+}
+
+.first_one {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+
+.one {
+  height: 20px;
+  width: 20px;
+  background-color: #000;
+  /* display: inline-block; */
+}
+
+.two {
+  /* display: inline-block;
+  width: 20px;
+  height: 20px; */
+  background-color: rgb(15, 124, 226);
+  margin-left: 5px;
+  display: inline-block;
+}
+.three {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(247, 15, 15);
+  display: inline-block;
+  margin-left: 5px;
+}
+.four {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: #b6f111;
+  margin-left: 5px;
+}
+.five {
+  width: 20px;
+  height: 20px;
+  background-color: #1dc50e;
+  display: inline-block;
+  margin-left: 5px;
+}
+.six {
+  width: 20px;
+  height: 20px;
+  background-color: #885214;
+  display: inline-block;
+  margin-left: 5px;
+}
