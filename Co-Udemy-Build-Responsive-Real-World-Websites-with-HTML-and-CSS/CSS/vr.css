@@ -1,0 +1,19 @@
+div {
+    background-image: url("https://www.rd.com/wp-content/uploads/2022/08/GettyImages-1405467489.jpg?resize=700,467");
+    background-repeat: fixed;
+    /* background-size: contain; */
+    color: rgb(112, 118, 119);
+
+
+}
+
+.go {
+    color: rgb(5, 60, 97);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+::selection {
+    background-color: black;
+    color: yellowgreen;
+}
