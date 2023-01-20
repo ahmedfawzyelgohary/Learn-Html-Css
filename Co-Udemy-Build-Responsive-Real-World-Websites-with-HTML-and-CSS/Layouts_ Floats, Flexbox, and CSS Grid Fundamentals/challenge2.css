@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .container {
   width: 825px;
@@ -98,7 +99,6 @@ li {
   display: inline-block;
   margin-right: 10px;
 }
-
 .two {
   background-color: rgb(15, 124, 226);
 }
@@ -113,4 +113,24 @@ li {
 }
 .six {
   background-color: #885214;
+}
+.part-two {
+  float: right;
+  width: 240px;
+  margin-left: 40px;
+}
+.part-one {
+  float: left;
+  width: 240px;
+  margin-left: 40px;
+}
+.first-img {
+  float: left;
+  margin-bottom: auto;
+}
+.free {
+  float: right;
+}
+.price {
+  font-size: 35px;
 }
