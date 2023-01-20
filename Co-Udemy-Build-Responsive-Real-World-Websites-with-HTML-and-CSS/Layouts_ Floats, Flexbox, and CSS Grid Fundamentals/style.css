@@ -10,14 +10,13 @@ body {
   position: relative;
 }
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
 }
 aside {
   background-color: #f7f7f7;
@@ -105,7 +104,7 @@ footer p {
 
 a:link {
   color: #1098ed;
-  margin: 20px;
+  padding: 10px;
   display: inline-block;
 }
 a:visited {
@@ -155,4 +154,20 @@ h1 {
 }
 nav {
   float: right;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+article {
+  width: 825px;
+  float: left;
+}
+aside {
+  width: 300px;
+  float: right;
+}
+footer {
+  clear: both;
 }
