@@ -22,9 +22,6 @@ h2 {
   padding: 15px;
   background-color: #f7f7f7;
 }
-.price {
-  font-weight: bold;
-}
 .free {
   color: rgba(68, 68, 68, 0.534);
   margin-bottom: 15px;
@@ -132,5 +129,7 @@ li {
   float: right;
 }
 .price {
-  font-size: 35px;
+  font-size: 25px;
+  /* font-weight: bold; */
+  float: left;
 }
