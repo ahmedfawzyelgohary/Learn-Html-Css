@@ -19,16 +19,18 @@
       <article>
         <header class="post-header">
           <h2>The Basic Language of the Web: HTML</h2>
-          <img
-            src="img/laura-jones.jpg"
-            alt="photo to laura Jones"
-            width="50"
-            height="50"
-            class="author_img"
-          />
-          <p id="author" class="author">
-            Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
-          </p>
+          <div class="author-box">
+            <img
+              src="img/laura-jones.jpg"
+              alt="photo to laura Jones"
+              width="50"
+              height="50"
+              class="author_img"
+            />
+            <p id="author" class="author">
+              Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+            </p>
+          </div>
           <img
             src="img/post-img.jpg"
             alt="HTML code on screen"
@@ -91,8 +93,10 @@
               width="75"
               height="75"
             />
-            <a href="#"> How To Learn Web Development</a>
-            <p>By Jonas schmedtmann</p>
+            <div>
+              <a href="#" class="related-link"> How To Learn Web Development</a>
+              <p class="related-p">By Jonas schmedtmann</p>
+            </div>
           </li>
           <li class="realted_author">
             <img
@@ -101,8 +105,10 @@
               width="75"
               height="75"
             />
-            <a href="#">The Unknow Powers Of Css</a>
-            <p>By Jim Dillon</p>
+            <div>
+              <a href="#" class="related-link">The Unknow Powers Of Css</a>
+              <p class="related-p">By Jim Dillon</p>
+            </div>
           </li>
           <li class="realted_author">
             <img
@@ -111,8 +117,10 @@
               width="75"
               height="75"
             />
-            <a href="#">Why Javascript Is Awsome </a>
-            <p>By Matilda</p>
+            <div>
+              <a href="#" class="related-link">Why Javascript Is Awsome </a>
+              <p class="related-p">By Matilda</p>
+            </div>
           </li>
         </ul>
       </aside>
