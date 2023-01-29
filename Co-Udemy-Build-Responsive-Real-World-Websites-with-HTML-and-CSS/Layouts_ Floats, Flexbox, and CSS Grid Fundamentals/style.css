@@ -204,3 +204,14 @@ footer {
   display: block;
   margin-bottom: 5px;
 }
+.new-flex {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+}
+.article {
+  flex: 1;
+}
+.aside {
+  flex: 0 0 300px;
+}
