@@ -209,9 +209,9 @@ footer {
   gap: 75px;
   align-items: flex-start;
 }
-.article {
+article {
   flex: 1;
 }
-.aside {
+aside {
   flex: 0 0 300px;
 }
