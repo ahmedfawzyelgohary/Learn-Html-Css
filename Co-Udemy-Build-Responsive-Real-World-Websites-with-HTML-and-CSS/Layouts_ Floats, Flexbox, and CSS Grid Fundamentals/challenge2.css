@@ -54,10 +54,6 @@ a:visited {
 a:active {
   color: black;
 }
-.first-img {
-  margin-bottom: 5px;
-}
-
 h3 {
   margin: 20px 0;
   font-weight: bold;
@@ -87,8 +83,8 @@ li {
   height: 20px;
   width: 20px;
   background-color: #000;
-  display: inline-block;
-  margin-right: 10px;
+  /* display: inline-block; */
+  /* margin-right: 10px; */
 }
 .two {
   background-color: rgb(15, 124, 226);
@@ -105,32 +101,56 @@ li {
 .six {
   background-color: #885214;
 }
-.part-two {
+/* .part-two {
   float: right;
   width: 242px;
   margin-left: 40px;
-}
-.part-one {
+} */
+
+/* .part-one {
   float: left;
   width: 242px;
   margin-left: 40px;
-}
-.first-img {
+} */
+
+/* .first-img {
   float: left;
   margin-bottom: auto;
-}
+} */
 .free {
   color: rgba(68, 68, 68, 0.534);
-  margin-top: 10px;
-  float: right;
+  /* margin-top: 10px; */
+  /* float: right; */
 }
 .price {
   font-size: 25px;
   font-weight: bold;
-  float: left;
-  margin-bottom: 5px;
+  /* float: left; */
+  /* margin-bottom: 5px; */
 }
-.Ready {
+/* .Ready {
   margin-bottom: 15px;
   clear: both;
+} */
+
+.price-free {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.product-color {
+  display: flex;
+  gap: 10px;
+}
+.flex {
+  display: flex;
+  gap: 40px;
+}
+.part-one {
+  flex: 1;
+  margin-top: 20px;
+}
+.part-two {
+  flex: 1;
 }
