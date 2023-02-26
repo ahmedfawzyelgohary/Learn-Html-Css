@@ -21,6 +21,7 @@ FONT SIZE SYSTEM (px)
 body {
   font-family: "inter", sans-serif;
   color: #343a40;
+  border-bottom: 8px solid #0ca678;
 }
 
 .container {
@@ -50,16 +51,21 @@ h2 {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 500px;
-  font-size: 18px;
-  padding: 16px 32px;
+  font-weight: 500;
   display: inline-block;
 }
 .btn:hover,
 .btn:active {
   background-color: #12b886;
 }
-
+.btn--big {
+  font-size: 18px;
+  padding: 16px 32px;
+}
+.btn--small {
+  font-size: 14px;
+  padding: 8px 12px;
+}
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
@@ -109,6 +115,9 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #0ca678;
+  color: #fff;
+  padding: 24px;
 }
 
 .testimonial-box {
