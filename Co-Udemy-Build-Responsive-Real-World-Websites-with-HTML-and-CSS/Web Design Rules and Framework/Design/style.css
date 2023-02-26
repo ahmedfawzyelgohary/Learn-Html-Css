@@ -9,15 +9,16 @@ FONT SIZE SYSTEM (px)
 /* main color -> #0ca678 /*
 /* text color ->#343a40/*
 
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ------------------------ */
-/* GENERAL STYLES */
-/* ------------------------ */
 body {
   font-family: "inter", sans-serif;
   color: #343a40;
