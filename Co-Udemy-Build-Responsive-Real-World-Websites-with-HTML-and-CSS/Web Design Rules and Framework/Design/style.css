@@ -20,6 +20,7 @@ FONT SIZE SYSTEM (px)
 /* ------------------------ */
 body {
   font-family: "inter", sans-serif;
+  color: #343a40;
 }
 
 .container {
@@ -42,6 +43,21 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;
+}
+.btn:link,
+.btn:visited {
+  background-color: #0ca678;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500px;
+  font-size: 18px;
+  padding: 16px 32px;
+  display: inline-block;
+}
+.btn:hover,
+.btn:active {
+  background-color: #12b886;
 }
 
 /* ------------------------ */
