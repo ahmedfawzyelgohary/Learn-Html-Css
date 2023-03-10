@@ -14,7 +14,7 @@
       /*
        SPACING SYSTEM (px)
        2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-       
+
        FONT SIZE SYSTEM (px)
        10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
        */
@@ -35,23 +35,86 @@
         width: 800px;
         margin: 100px auto;
         background-color: #0ca678;
-        padding: 32px;
+        padding: 32px 48px 32px 86px;
         border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 86px;
+        position: relative;
       }
       img {
         width: 200px;
         border-radius: 10px;
+        transform: scale(1.5);
+        box-shadow: 0 12px 32px rgb(0 0 0 / 27%);
       }
 
-      .testimonial {
-      }
       .testimonial-text {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+        margin-bottom: 32px;
+        color: #e6fcf5;
       }
-      .stimonial-job {
+      .testimonial-author {
+        font-size: 14px;
+        margin-bottom: 4px;
+        color: #c3fae8;
       }
+      .testimonial-job {
+        font-size: 12px;
+        color: #c3fae8;
+      }
+      /* CONTROL */
       .btn {
+        background-color: #fff;
+        border: none;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        position: absolute;
+        box-shadow: 0 12px 32px rgb(0 0 0 / 27%);
+        cursor: pointer;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .btn--right {
+        right: 0;
+        top: 50%;
+        transform: translate(50%, -50%);
+      }
+      .btn--left {
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
       }
       .icon-btn {
+        width: 24px;
+        height: 24px;
+        stroke: #0ca678;
+      }
+      .dots {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 28px);
+
+        display: flex;
+        gap: 12px;
+      }
+      .dot {
+        height: 12px;
+        width: 12px;
+        background-color: #fff;
+        color: #0ca678;
+        border: 2px solid #0ca678;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .dot--green {
+        background-color: #0ca678;
       }
     </style>
   </head>
@@ -67,7 +130,7 @@
         <p class="testimonial-author">Maria de Alamida</p>
         <p class="testimonial-job">Senior product manger at EDP comercial</p>
       </blockquote>
-      <button class="btn">
+      <button class="btn btn--left">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -83,7 +146,7 @@
           />
         </svg>
       </button>
-      <button class="btn">
+      <button class="btn btn--right">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -99,6 +162,12 @@
           />
         </svg>
       </button>
+      <div class="dots">
+        <button class="dot dot--green">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+      </div>
     </div>
   </body>
 </html>
