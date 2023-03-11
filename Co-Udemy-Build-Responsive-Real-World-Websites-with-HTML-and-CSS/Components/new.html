@@ -32,22 +32,71 @@
         line-height: 1;
       }
       .page {
-        width: 800px;
-        margin: 100px auro;
+        margin: 100px auto;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 44px;
       }
-      .btn {
+      button {
+        width: 36px;
+        height: 36px;
+        color: #0ca678;
+        border: 1px solid #0ca678;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button:hover {
+        background-color: #0ca678;
+        cursor: pointer;
+      }
+      .btn:hover .btn--icon {
+        stroke: #fff;
+      }
+      .btn--icon {
         width: 24px;
         height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .dot {
+        width: 2px;
+        height: 2px;
+        background-color: #0ca678;
         color: #0ca678;
         border: 1px solid #0ca678;
         border-radius: 50%;
       }
-      .btn--left {
+      .dots {
+        display: flex;
+        gap: 3px;
+        align-items: center;
+        color: #adb5bd;
       }
-      .btn--right {
+      nav {
+        display: flex;
+        gap: 12px;
       }
-      .dot {
+      a:link,
+      a:visited {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #0ca678;
+        font-size: 18px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+      }
+
+      a:hover,
+      a:active {
+        background-color: #0ca678;
+        color: #fff;
       }
     </style>
   </head>
@@ -60,7 +109,7 @@
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="btn--left"
+          class="btn--icon btn--left"
         >
           <path
             stroke-linecap="round"
@@ -72,14 +121,14 @@
       <nav>
         <a href="#">1</a>
         <a href="#">2</a>
-        <a href="#">3</a>
+        <a href="#" class="color--link">3</a>
         <a href="#">4</a>
         <a href="#">5</a>
         <a href="#">6</a>
-        <div class="dot">
-          <div>&nbsp;</div>
-          <div>&nbsp;</div>
-          <div>&nbsp;</div>
+        <div class="dots">
+          <span class="dot">&nbsp;</span>
+          <span class="dot">&nbsp;</span>
+          <span class="dot">&nbsp;</span>
         </div>
         <a href="#">23</a>
       </nav>
@@ -90,7 +139,7 @@
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="btn--right"
+          class="btn--icon btn--right"
         >
           <path
             stroke-linecap="round"
