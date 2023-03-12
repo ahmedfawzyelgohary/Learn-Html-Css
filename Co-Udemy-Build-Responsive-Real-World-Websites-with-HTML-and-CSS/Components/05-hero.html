@@ -28,16 +28,35 @@
       }
       header {
         height: 100vh;
+        position: relative;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.486),
+            rgba(0, 0, 0, 0.478)
+          ),
+          url(hero.jpg);
+        background-size: cover;
+        color: #fff;
       }
       nav {
         font-size: 22px;
-        font-weight: 500;
+        font-weight: 600;
         display: flex;
         justify-content: space-between;
+        padding-top: 24px;
+      }
+      .header--container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .center {
+        width: 50%;
       }
       h1 {
         font-size: 52px;
-        margin-bottom: 32;
+        margin-bottom: 32px;
+        line-height: 1;
       }
       p {
         font-size: 22px;
@@ -70,13 +89,16 @@
         <div>LOGO</div>
         <div>NAVIGATTION</div>
       </nav>
-      <div class="container">
-        <h1>A healthy meal deliverded to your door, every single day</h1>
-        <p>
-          The smart 365-days-per-year food subscription that will make you eat
-          healthy algain. Tailored to your personal tastes and nutitional needs
-        </p>
-        <a href="#" class="btn">start eating well</a>
+      <div class="header--container container">
+        <div class="center">
+          <h1>A healthy meal deliverded to your door, every single day</h1>
+          <p>
+            The smart 365-days-per-year food subscription that will make you eat
+            healthy algain. Tailored to your personal tastes and nutitional
+            needs
+          </p>
+          <a href="#" class="btn">start eating well</a>
+        </div>
       </div>
     </header>
 
